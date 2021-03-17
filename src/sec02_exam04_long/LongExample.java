@@ -8,5 +8,7 @@ public class LongExample {
 		//long var3 = 10000000000000; // int를 초과하는 값을 int타입으로 넣으려해서 에러
 		//The literal 10000000000000 of type int is out of range
 		long var4 = 10000000000000L;
+		
+		System.out.println("");
 	}
 }

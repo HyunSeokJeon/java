@@ -1,4 +1,4 @@
-package sec02_exam01_byte;
+package sec02.exam01_byte;
 
 public class ByteExample {
 	public static void main(String[] args) {

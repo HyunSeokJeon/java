@@ -1,4 +1,4 @@
-package sec02_exam04_long;
+package sec02.exam04_long;
 
 public class LongExample {
 	public static void main(String[] args) {

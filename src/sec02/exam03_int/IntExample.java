@@ -1,4 +1,4 @@
-package sec02_exam03_int;
+package sec02.exam03_int;
 
 public class IntExample {
 	public static void main(String[] args) {

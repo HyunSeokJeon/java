@@ -12,5 +12,6 @@ public class MemberExample {
 			System.out.println("obj1과 obj2는 동등하지 않습니다.");
 		}
 		
+		System.out.println(obj3.hashCode());
 	}
 }

@@ -1,6 +1,13 @@
 package chap11.sec03.exam02_hashcode;
 
 public class Key {
+	/** 
+	 * @version 1.0
+	 * @author HyunSeok
+	 * @param int number
+	 *
+	 * 
+	*/
 	public int number;
 	
 	public Key(int number) {

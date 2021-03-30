@@ -1,0 +1,13 @@
+package chap11.sec07.exam02_method;
+
+public class StringLengthExample {
+	public static void main(String[] args) {
+		String ssn = "73278718273809";
+		int lenght = ssn.length();
+		if(lenght == 13) {
+			System.out.println("주민번호 자리수가 맞습니다.");
+		}else {
+			System.out.println("주민번호 자리수가 틀립니다.");
+		}
+	}
+}

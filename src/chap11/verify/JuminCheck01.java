@@ -5,33 +5,23 @@ import java.util.Scanner;
 
 public class JuminCheck01 {
 	public boolean juminCheck(String jumin) {
-		
-		// (주민번호 각자리 * constant) 합
 		int sum = 0;
-		// 각 자리수에 곱해질 숫자
 		int constant = 2; 
+		String[] jumins = new String[12];
 		for (int i = 0; i < 12; i++) {
-			// char '숫자'값에 48(char에서 숫자가 시작하는 '0')을 뺀뒤('0'을 빼도 됨), int로 자동 변환되 같은 숫자 값을 얻어냄
-			int x1 = (jumin.charAt(i)-'0') * constant;
-			sum += x1;			
-			
+			sum += Integer.parseInt(jumin.substring(i, i+1)) * constant;			
 			constant++;
-			// 곱해질 숫자가 9가 넘어가면 다시 2로 넘겨줌
 			if(constant > 9) {
 				constant = 2;
 			}
 		}
+		int checkNum = Integer.parseInt(jumin.substring(12));
 		
-		// 마지막 자리 숫자
-		int checkNum = jumin.charAt(12)-'0';
-		
-		// 나머지를 구하는 과정
 		int remainder = 11 - sum % 11;
 		if (remainder >= 10) {
 			remainder = remainder%10;
 		}
 		
-		// 올바른 번호인지 확인
 		if (checkNum == remainder) {
 			return true;
 		} else {

@@ -7,7 +7,6 @@ public class JuminCheck01 {
 	public boolean juminCheck(String jumin) {
 		int sum = 0;
 		int constant = 2; 
-		String[] jumins = new String[12];
 		for (int i = 0; i < 12; i++) {
 			sum += Integer.parseInt(jumin.substring(i, i+1)) * constant;			
 			constant++;

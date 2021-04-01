@@ -1,4 +1,4 @@
-package chap12.verify.exam00;
+package chap12.verify.exam00_mythread;
 
 // 인터페이스 Runnable를 구현
 public class MyRun implements Runnable{

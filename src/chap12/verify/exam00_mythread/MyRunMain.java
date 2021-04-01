@@ -1,4 +1,4 @@
-package chap12.verify.exam00;
+package chap12.verify.exam00_mythread;
 
 public class MyRunMain {
 	public static void main(String[] args) {

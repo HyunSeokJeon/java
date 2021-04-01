@@ -1,8 +1,8 @@
-package chap12.verify.exam00;
+package chap12.verify.exam00_numlockprint;
 
-public class MemberPrintMain {
+public class MemberLockPrintMain {
 	public static void main(String[] args) {
-		MemberPrint mp = new MemberPrint();
+		MemberLockPrint mp = new MemberLockPrint();
 		Thread t1 = new Thread(mp, "a");
 		Thread t2 = new Thread(mp, "b");
 		Thread t3 = new Thread(mp, "c");
@@ -10,6 +10,5 @@ public class MemberPrintMain {
 		t1.start();
 		t2.start();
 		t3.start();
-		
 	}
 }

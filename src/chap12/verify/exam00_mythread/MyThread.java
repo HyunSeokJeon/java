@@ -1,4 +1,4 @@
-package chap12.verify.exam00;
+package chap12.verify.exam00_mythread;
 
 // Thread 클래스를 상속
 public class MyThread extends Thread{

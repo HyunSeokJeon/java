@@ -6,6 +6,7 @@ import java.util.function.Function;
 import java.util.function.ToIntFunction;
 
 public class FunctionExample1 {
+	// List 자료구조  = 자료를 인덱스로 관리하는 배열과 비슷하지만 확장을 할 수 있다.
 	private static List<Student> list = Arrays.asList(
 			new Student("홍길동", 90, 96),
 			new Student("신용권", 95, 93)

@@ -17,6 +17,7 @@ public class ConsumerExample {
 			}
 			
 		};
+		// ¶÷´Ù½Ä
 //		Consumer<String> consumer = t -> System.out.println(t + "8");
 		consumer.accept("java");
 		

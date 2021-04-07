@@ -15,14 +15,24 @@ public class OperatorExample {
 	
 	public static void main(String args[]) {
 		//최대값 얻기
-		int max = maxOrMin(
-				(a, b) -> {
-					if(a >= b) return a;
-					else return b;
-				}
-				);
-		System.out.println(max);
+//		int max = maxOrMin(
+//				(a, b) -> {
+//					if(a >= b) return a;
+//					else return b;
+//				}
+//				);
 		
+		int max = maxOrMin(new IntBinaryOperator() {
+
+			@Override
+			public int applyAsInt(int a, int b) {
+				if(a >= b) return a;
+				else return b;
+			}
+			
+		});
+		
+		System.out.println(max);
 		int min = maxOrMin(
 				(a, b) ->{
 					if(a <= b) return a;

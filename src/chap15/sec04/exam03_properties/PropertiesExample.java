@@ -1,4 +1,4 @@
-package chap15.sec03.exam04_properties;
+package chap15.sec04.exam03_properties;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

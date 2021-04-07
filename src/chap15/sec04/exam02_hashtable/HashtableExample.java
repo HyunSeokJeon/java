@@ -1,4 +1,4 @@
-package chap15.sec03.exam03_hashtable;
+package chap15.sec04.exam02_hashtable;
 
 import java.util.HashMap;
 import java.util.Map;
